@@ -10,8 +10,12 @@
 
 **VPS INSTALLATION**
 `git clone https://github.com/Evolution-Development/MCSTATS.git`
+<br>
 `cd MCSTATS`
+<br>
 EDIT `config.json` And Create `.env` file 
+
+<hr>
 
 Use This Config In
 **.env** file
@@ -23,7 +27,7 @@ PORT=SERVER_PORT_DEFAULT_TO_25565_IF_LEFT_BLANK
 CHANNELID=CHANNEL_ID
 MESSAGEID=MASSAGE_ID
 ```
-
+<hr>
 
 **Installation:**
 Run npm i if you havent already.
