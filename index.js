@@ -6,7 +6,10 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const fetch = require('node-fetch');
-const config = require('./config.json');
+const yaml = require('js-yaml');
+const fs = require('fs');
+const config = yaml.load(fs.readFileSync('./config.yml'));
+
 const client = new Discord.Client({
     intents: [
         //https://ziad87.net/intents/

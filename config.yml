@@ -1,0 +1,39 @@
+displayip: yourserver.yourdomain.com
+servername: YourCommunityName
+youricon: someURL
+website: someURL
+UpdateIntervalEmbed: 30s
+UpdateIntervalAPIChecking: 30s
+guildid: yourServerID
+maintenancemode:
+  colour: "#FFA500"
+  description: SomeDescription
+  fieldName: FieldName
+  fieldValue: FieldDescription
+  footer: This message updates every 30 seconds! Some information could be incorrect
+    due to caching reasons!
+online:
+  colour: "#00FF00"
+  description: SomeDescription
+  footer: This message updates every 30 seconds! Some information could be incorrect
+    due to caching reasons!
+offline:
+  colour: "#FF0000"
+  description: SomeDescription
+  footer: This message updates every 30 seconds! Some information could be incorrect
+    due to caching reasons!
+customStatus:
+  online: With {online/max}!
+  onlineType: PLAYING
+  onlineStatus: online
+  maintenance: The Developers!
+  maintenanceType: WATCHING
+  maintenanceStatus: idle
+  offline: An Offline Server
+  offlineType: WATCHING
+  offlineStatus: dnd
+commands:
+  enableSlashCommands: true
+  enableMessageCommands: true
+  prefix: "!"
+  requiredPermission: MANAGE_GUILD
