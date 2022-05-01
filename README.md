@@ -15,8 +15,11 @@
 `cd MCSTATS`
 <br>
 `npm install`
+<br>
 EDIT `config.yml`
+<br>
 `mv .env.example .env`
+<br>
 EDIT `.env`
 
 <hr>
