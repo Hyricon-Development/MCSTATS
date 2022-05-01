@@ -9,6 +9,7 @@
 
 
 **INSTALLATION**
+<br>
 `git clone https://github.com/Evolution-Development/MCSTATS.git`
 <br>
 `cd MCSTATS`
